@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -353,6 +354,7 @@ a:not([href]):not([tabindex]):hover {
   webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  user-select: none;
 }
 .item-boxes .icon {
   width: 60px;
